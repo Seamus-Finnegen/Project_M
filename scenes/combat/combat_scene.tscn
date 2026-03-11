@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://drstwel3db478"]
+
+[ext_resource type="Texture2D" uid="uid://o0b8soyeda17" path="res://assets/sprites/environments/Nature_Pixel/nature_2/origbig.png" id="1_jecyb"]
+
+[node name="combat_scene" type="Node2D" unique_id=105926372]
+
+[node name="background" type="Sprite2D" parent="." unique_id=538275093]
+z_index = -30
+position = Vector2(640, 360)
+scale = Vector2(2.2, 2.2)
+texture = ExtResource("1_jecyb")
+
+[node name="combat_Layer" type="Node2D" parent="." unique_id=152032644]
+
+[node name="Player" type="Node2D" parent="combat_Layer" unique_id=1409296353]
+
+[node name="Enemy" type="Node2D" parent="combat_Layer" unique_id=1544116911]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=419725138]
